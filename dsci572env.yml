@@ -1,0 +1,21 @@
+name: dsci572
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+dependencies:
+  - python
+  - ipykernel
+  - ipywidgets
+  - pandas
+  - matplotlib
+  - plotly
+  - jupyter-dash
+  - scikit-learn
+  - torchvision
+  - torchaudio
+  - pytorch
+  - autograd
+  - pip
+  - pip:
+    - torch-summary
